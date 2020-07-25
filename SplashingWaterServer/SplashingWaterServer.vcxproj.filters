@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Strategy">
+      <UniqueIdentifier>{a5e58b80-2eb6-48cb-8fae-17a841e14d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Strategy">
+      <UniqueIdentifier>{29e56317-34fc-4372-8d82-e119a786c7a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Database">
+      <UniqueIdentifier>{aa053c0d-2bc1-4e2f-afc8-8345104c34ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Database">
+      <UniqueIdentifier>{d5ab64f6-b085-40ee-9d0f-77538094ad31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Log">
+      <UniqueIdentifier>{92a4e386-3cf4-4e0b-ab7e-4149410ddbc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Log">
+      <UniqueIdentifier>{38b60fde-fd84-4a30-bb6f-6d0652c99941}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpServerPort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer\Subject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StrTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\IStrategy.h">
+      <Filter>头文件\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginStrategy.h">
+      <Filter>头文件\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterStrategy.h">
+      <Filter>头文件\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="SendStrategy.h">
+      <Filter>头文件\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer\ObserverInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StateStrategy.h">
+      <Filter>头文件\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdatelistStrategy.h">
+      <Filter>头文件\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\DatabaseInterface.h">
+      <Filter>头文件\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\MySQLOperator.h">
+      <Filter>头文件\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\FileOperation.h">
+      <Filter>头文件\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\LogManager.h">
+      <Filter>头文件\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="ILogicLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonStrategy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleAccountHandle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountSheetManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserSheetHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\SmartPtr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashingWaterServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpServerPort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer\Subject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\StrTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginStrategy.cpp">
+      <Filter>源文件\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterStrategy.cpp">
+      <Filter>源文件\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="SendStrategy.cpp">
+      <Filter>源文件\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="StateStrategy.cpp">
+      <Filter>源文件\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdatelistStrategy.cpp">
+      <Filter>源文件\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\FileOperation.cpp">
+      <Filter>源文件\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\LogManager.cpp">
+      <Filter>源文件\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\MySQLOperator.cpp">
+      <Filter>源文件\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonStrategy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleAccountHandle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountSheetManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserSheetHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
